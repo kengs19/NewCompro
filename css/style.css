@@ -1,0 +1,66 @@
+.slider h3,
+.slider h5,
+.patners {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.hoc,
+.gallery,
+.contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.history {
+  text-align: justify;
+}
+
+.founders {
+  padding-top: 50px;
+}
+
+.patners {
+  padding: 50px 0;
+}
+
+.parallax-container {
+  height: 100vh;
+}
+
+.parallax img {
+  filter: grayscale(40%);
+  opacity: 1 !important;
+}
+
+.patners img {
+  max-width: 150px;
+  max-height: 100px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+.card-panel {
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .slider .caption {
+    top: 20%;
+  }
+
+  .slider h3 {
+    font-size: 2rem;
+  }
+
+  .slider h5 {
+    font-size: 1.2rem;
+  }
+
+  .desc {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .parallax-container {
+    height: 60vh;
+  }
+}
