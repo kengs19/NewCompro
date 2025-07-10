@@ -64,3 +64,43 @@
     height: 60vh;
   }
 }
+
+/* Logo Responsif */
+.brand-logo {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+/* Fix untuk Gallery Grid */
+.gallery .row .col img {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Ubah ukuran slider di HP */
+@media only screen and (max-width: 600px) {
+  .slider {
+    height: 250px !important;
+  }
+
+  .slider .slides li img {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .slider .caption {
+    top: 10%;
+  }
+
+  .slider h3 {
+    font-size: 1.4rem;
+  }
+
+  .slider h5 {
+    font-size: 1rem;
+  }
+
+  .brand-logo {
+    font-size: 1.1rem;
+  }
+}
